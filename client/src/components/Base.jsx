@@ -8,6 +8,13 @@ import IconMenu from 'material-ui/IconMenu';
 import MenuItem from 'material-ui/MenuItem';
 import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
 
+const styles = {
+  content: {
+    display: 'flex',
+    justifyContent : 'center',
+}
+};
+
 
 const Base = ({ children }) => (
   <div>
@@ -42,8 +49,7 @@ const Base = ({ children }) => (
 
         }
       />
-
-      {children}
+      <div style={styles.content}>{children}</div>
 
     </div>
 

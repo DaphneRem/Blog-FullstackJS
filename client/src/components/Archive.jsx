@@ -22,9 +22,17 @@ const styles = {
         backgroundRepeat : 'no-repeat',
         height : 600,
         width : '100%',
+
         display : 'flex',
         justifyContent : 'center',
         verticalAlign: 'baseline'
+    },
+    article : {
+        color : 'white',
+        fontSize : '100px',
+        alignSelf :'center'
+
+
     }
 };
 export default class Archive extends PureComponent {
@@ -35,7 +43,7 @@ export default class Archive extends PureComponent {
     return (
       <div style={styles.archiveContent}>
           <div style={styles.backgroundImage}>
-              <p>ARTICLES</p>
+              <p style={styles.article}>ARTICLES</p>
           </div>
 
           <div><ArticlesContainerClient/></div>

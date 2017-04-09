@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { hashHistory } from 'react-router';
 import { Form } from '../components/index';
+import RaisedButton from 'material-ui/RaisedButton';
 
 export default class AddArticleContainer extends Component {
   constructor (props) {
@@ -68,8 +69,7 @@ export default class AddArticleContainer extends Component {
   render () {
     return (
         <div>
-            <button className="btn" onClick={this.modal}>Ajouter un Article</button>
-
+    <RaisedButton className="btn" label="Ajouter un Article" primary={true} onClick={this.modal} />
             <div>
                 {this.state.showForm ?
                     <Form submit={this.submit} uploadPicture={this.uploadPicture} setArticle={this.setArticle} />

@@ -3,9 +3,9 @@ import React, { PureComponent } from 'react';
 export default class Contact extends PureComponent {
   render () {
     return (
-      <div className="inner cover">
-        <h1 className="cover-heading">Any Questions?</h1>
-        <p className="lead">Don't hesitate to contact me: remalidaphne@gmail.com</p>
+      <div>
+        <h1>Des questions?</h1>
+        <p>N'hésitez pas à me contacter : remalidaphne@gmail.com </p>
       </div>
     );
   }

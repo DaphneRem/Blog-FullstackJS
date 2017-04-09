@@ -8,10 +8,6 @@ import RaisedButton from 'material-ui/RaisedButton';
 
 
 const styles = {
-    container : {
-        display :'flex',
-        justifyContent :'center'
-    },
   customContentStyle : {
       width: '100%',
       maxWidth: 'none',

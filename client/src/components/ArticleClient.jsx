@@ -8,7 +8,7 @@ import FlatButton from 'material-ui/FlatButton';
       const styles = {
         articleCard : {
           width: 350,
-          height: 460,
+          height: 480,
           overflowY: 'auto',
           margin : '10px'
         },

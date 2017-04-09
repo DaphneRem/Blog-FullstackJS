@@ -9,16 +9,34 @@ export default class ArticlesListManager extends PureComponent {
       const styles = {
         root: {
           display: 'flex',
+          width : '97%',
           flexWrap: 'wrap',
-          justifyContent: 'space-around',
-        }
+          justifyContent: 'flex-start',
+        //   backgroundColor :'white',
+      },
+      container : {
+          height : '100%',
+          display: 'flex',
+          justifyContent : 'center',
+          flexDirection : 'column',
+          alignItems :'center',
+      },
+      search : {
+        display :'flex',
+        justifyContent :'center',
+        margin : '20px',
+        backgroundColor : 'white',
+        width : '450px',
+        borderRadius : '5px'
+      }
     }
 
     const { articles, searchBar, setSearchBar, toggleModal, deleteArticle } = this.props;
     return (
 
-      <div>
+      <div style={styles.container}>
 
+        <div style={styles.search}>
           <TextField
             type="search"
             floatingLabelText="Search by Name"
@@ -26,6 +44,7 @@ export default class ArticlesListManager extends PureComponent {
             name="Search"
             onKeyUp={setSearchBar}
           />
+          </div>
           {/* <input
             type="search" placeholder="Search by Name" className="form-control search-bar" onKeyUp={setSearchBar} /> */}
         <div style={styles.root}>

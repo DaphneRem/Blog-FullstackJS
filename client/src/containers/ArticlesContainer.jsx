@@ -9,7 +9,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 
 const styles = {
   customContentStyle : {
-      width: '70%',
+      width: '100%',
       maxWidth: 'none',
       height : '70vh'
   },

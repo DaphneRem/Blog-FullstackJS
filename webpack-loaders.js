@@ -30,8 +30,10 @@ exports.css = {
 }
 // The file loader
 exports.font = {
-  test: /\.ttf$/,
-  use: ['file-loader']
+    test: /\.(jpe?g|png|gif|svg)$/i, 
+	        	use: {
+	        		loader: "file-loader?name=/assets/[name].[ext]"
+}
 }
 // Babel loader
 exports.babel = {

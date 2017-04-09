@@ -30,7 +30,7 @@ const Base = ({ children }) => (
                 targetOrigin={{horizontal: 'right', vertical: 'top'}}
                 anchorOrigin={{horizontal: 'right', vertical: 'top'}}>
 
-                    <MenuItem primaryText={<Link to="/blog">Page d'Accueil</Link>} />
+                    <MenuItem primaryText={<Link to="/blog">Article vue visiteurs</Link>} />
                     <MenuItem primaryText={<Link to="/contact">Contact</Link>} />
                     <MenuItem primaryText={<Link to="/about">About</Link>} />
                     <MenuItem primaryText={<Link to="/">Dashboard</Link>} />
@@ -42,9 +42,8 @@ const Base = ({ children }) => (
                 targetOrigin={{horizontal: 'right', vertical: 'top'}}
                 anchorOrigin={{horizontal: 'right', vertical: 'top'}}>
 
-                    <MenuItem primaryText={<Link to="/blog">Page d'Accueil</Link>} />
+                    <MenuItem primaryText={<Link to="/blog">Articles</Link>} />
                     <MenuItem primaryText={<Link to="/login">Log in</Link>} />
-                    <MenuItem primaryText={<Link to="/signup">Sign up</Link>} />
                     <MenuItem primaryText={<Link to="/contact">Contact</Link>} />
                     <MenuItem primaryText={<Link to="/about">About</Link>} />
             </IconMenu>

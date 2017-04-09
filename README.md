@@ -23,7 +23,7 @@ Démarrer le projet
 
 #### <i class="icon-folder-open"></i> Cloner le repo
 
-    $ git clone https://github.com/DaphneRem/Pokedex-Api-Catalog.git
+    $ git clone https://github.com/DaphneRem/Blog-fullstackJS.git
 
 -------------------
 #### <i class="icon-refresh"></i> Installer les dépendences

@@ -9,6 +9,8 @@ import Dashboard from './Dashboard.jsx';
 import HomePage from './HomePage.jsx';
 import LoginForm from './LoginForm.jsx';
 import SignUpForm from './SignUpForm.jsx';
+import ArticleClient from './ArticleClient';
+import ArticlesListClient from './ArticlesListClient';
 
 
 
@@ -29,5 +31,7 @@ export {
   Dashboard,
   HomePage,
   LoginForm,
-  SignUpForm
+  SignUpForm,
+  ArticleClient,
+  ArticlesListClient
 };

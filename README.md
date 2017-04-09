@@ -1,4 +1,4 @@
-Blog-fullstackJS - evaluation finale Simplon.co
+Blog-fullstackJS - Evaluation finale Simplon.co
 ===================
 
 
@@ -10,6 +10,12 @@ Blog-fullstackJS - evaluation finale Simplon.co
  - en tant qu'administrateur, je peux ajouter/supprimer un article
 
 ----------
+
+<i class="icon-cog"></i> **Contraintes techniques** :
+
+
+ - Ne pas créer un site vitrine, mais un blog complet.
+ - Pour l'aspect back créer un back-office lié à une base de données
 
 
 Démarrer le projet
